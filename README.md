@@ -20,6 +20,7 @@ alphabet shifted cyclically to the left compared to the previous alphabet, corre
 ## ALGORITHM:
 
 STEP-1: Arrange the alphabets in row and column of a 26*26 matrix.
+
 STEP-2: Circulate the alphabets in each row to position left such that the first letter is attached to last.
 STEP-3: Repeat this process for all 26 rows and construct the final key matrix.
 STEP-4: The keyword and the plain text is read from the user.
